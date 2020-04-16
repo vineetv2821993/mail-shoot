@@ -1,0 +1,26 @@
+{
+  "name": "mail-shoot",
+  "version": "1.0.0",
+  "description": "Project Mail Shoot",
+  "main": "app.js",
+  "scripts": {},
+  "author": "Vineet Kumar",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "deasync": "^0.1.19",
+    "jsonfile": "^6.0.1",
+    "lodash": "^4.17.15",
+    "nodemailer": "^6.4.6",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.1"
+  }
+}

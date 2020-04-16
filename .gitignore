@@ -1,0 +1,39 @@
+/config.dev.json
+
+# App artifacts
+_build/
+deps/
+/_build
+/deps
+/*.ez
+npm-debug.log
+.DS_Store
+/nbproject/
+/node_modules/
+package-lock.json
+/package-lock.json
+/logs
+logs/
+
+# IDE
+.history/
+/.history
+.elixir_ls/
+/.elixir_ls
+
+# test case
+test.js
+testConnect.js
+/test
+
+# Folders
+downloads/
+/downloads
+login/
+/login
+active/
+/active
+sessions/
+/sessions
+
+#Data dump

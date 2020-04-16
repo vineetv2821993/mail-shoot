@@ -1,0 +1,45 @@
+{
+  "environments": {
+    "development": 0,
+    "production": 1
+  },
+  "currentEnv": 0,
+  "paths": {
+    "downloads": "./downloads",
+    "logs": "./logs",
+    "sessions": "./sessions",
+    "login": "./login",
+    "active": "./active"
+  },
+  "email": {
+    "id": "0",
+    "user": "YourAccount@naxap.com",
+    "pass": "YourPass",
+    "userList": [
+      "YourAccount@naxap.com"
+    ],
+    "smtpConfig": {
+      "service": "Zoho",
+      "auth": {
+        "user": "YourAccount@naxap.com",
+        "pass": "YourPass"
+      }
+    },
+    "smtpConfigList": [
+      {
+        "service": "Zoho",
+        "auth": {
+          "user": "YourAccount@naxap.com",
+          "pass": "YourPass"
+        }
+      }
+    ]
+  },
+  "email_data":{
+    "sender_list": ["OtherPersonEmail@naxap.com"],
+    "head": "Naxap",
+    "body": "Custom Subject Here",
+    "subject": "Custom Body Here",
+    "interval": "*/5 * * * * *"
+  }
+}
