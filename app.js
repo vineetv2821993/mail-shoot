@@ -276,13 +276,13 @@ cron.job(interval, function () {
         }
         else {
             __info(`Sent to ${sender_list[i]} [${res}]`);
-        }
+		}
+		i++;
+		if(i>=sender_list.length){
+			__info(`${i} e-mails sent. Program Exiting...`);
+			process.exit(0);
+		}
     });
-	i++;
-	if(i>=sender_list.length){
-		__info(`${i} e-mails sent. Program Exiting...`);
-		process.exit(0);
-	}
 }).start();
 
 
