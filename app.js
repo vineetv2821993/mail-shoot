@@ -271,7 +271,7 @@ cron.job(interval, function () {
                     .slice(0, 3)
                     .join("") +
                 ".log",
-                sender_list[i]
+                sender_list[i]+"\n"
             );
         }
         else {
